@@ -58,7 +58,14 @@ cd backend
 npm install
 
 # Create .env file from template
-cp env.example .env
+contents: 
+# OpenWeatherMap API Key
+# Get your free API key from: https://openweathermap.org/api
+OPENWEATHER_API_KEY=d15edae8c699522f8ca8af3ff456c773
+
+# Server Port (optional)
+PORT=5000
+
 
 # Edit .env and add your OpenWeatherMap API key
 # OPENWEATHER_API_KEY=your_actual_api_key_here
@@ -83,7 +90,12 @@ cd frontend
 npm install
 
 # (Optional) Create .env file if backend runs on different port
-cp env.example .env
+contents:
+# Backend API URL
+# Update this if your backend runs on a different port
+REACT_APP_API_URL=http://localhost:5000
+
+
 ```
 
 **Start the frontend application:**
