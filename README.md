@@ -19,7 +19,7 @@ talentx-tech-ass-1/
 │   ├── server.js      # Main server file
 │   ├── logs/          # API request logs (created automatically)
 │   ├── package.json
-│   ├── env.example    # Environment variable template
+│   ├── .env    # Environment variable template
 │   └── README.md
 ├── frontend/          # React frontend application
 │   ├── src/
@@ -28,7 +28,7 @@ talentx-tech-ass-1/
 │   │   └── index.js
 │   ├── public/
 │   ├── package.json
-│   ├── env.example
+│   ├── .env
 │   └── README.md
 └── README.md          # This file
 ```
